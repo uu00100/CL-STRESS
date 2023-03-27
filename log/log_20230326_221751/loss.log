@@ -1,0 +1,9 @@
+Step:0	{"loss": {"learning_rate": 0.0001}, "step": 0}
+Step:0	{"loss": {"pretrain_training_loss": -0.31512439667823766}, "step": 0}
+Step:0	{"loss": {"pretrain_validation_loss": -0.5561221361160278}, "step": 0}
+Step:1	{"loss": {"learning_rate": 9.99314767377287e-05}, "step": 1}
+Step:1	{"loss": {"pretrain_training_loss": -0.5564629322006589}, "step": 1}
+Step:1	{"loss": {"pretrain_validation_loss": -0.7125462889671326}, "step": 1}
+Step:2	{"loss": {"learning_rate": 9.972609476841367e-05}, "step": 2}
+Step:2	{"loss": {"pretrain_training_loss": -0.6465353823843456}, "step": 2}
+Step:2	{"loss": {"pretrain_validation_loss": -0.7792680859565735}, "step": 2}

@@ -1,0 +1,15 @@
+Namespace(cuda=0, batch_size=64, n_epoch=60, lr=0.0001, lr_cls=0.001, scheduler=True, weight_decay=1.5e-06, dataset='lab', n_feature=9, len_sw=128, n_class=2, cases='random', split_ratio=0.2, target_domain='0', criterion='cos_sim', p=128, phid=128, logdir='log/', lr_mul=10.0, EMA=0.996, mmb_size=1024, lambda1=1.0, lambda2=1.0, temp_unit='tsfm', device='Phones', plt=True, framework='byol', backbone='FCN', aug1='na', aug2='na', model_name='try_scheduler_byol_pretrain_lab_eps60_lr0.0001_bs64_aug1na_aug2na_dim-pdim128-128_EMA0.996_criterion_cos_sim_lambda1_1.0_lambda2_1.0_tempunit_tsfm', matrix_name='lab_byol_FCN_na_na_60.txt')
+
+Epoch : 0
+Train Loss     : -0.3151
+Val Loss     : -0.5561
+
+Epoch : 1
+Train Loss     : -0.5565
+Val Loss     : -0.7125
+
+Epoch : 2
+Train Loss     : -0.6465
+Val Loss     : -0.7793
+
+Epoch : 3
