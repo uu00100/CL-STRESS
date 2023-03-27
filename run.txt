@@ -1,0 +1,7 @@
+python main.py --framework byol --backbone DCL --dataset lab --aug1 t_warp --aug2 negate --n_epoch 60 --batch_size 128 --lr 5e-4 --lr_cls 0.3 --plt True
+
+python main.py --framework byol --backbone DCL --dataset beam --aug1 t_warp --aug2 negate --n_epoch 60 --batch_size 128 --lr 5e-4 --lr_cls 0.3 --plt True
+
+set GIT_PYTHON_REFRESH=quiet
+
+python loop.py
