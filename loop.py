@@ -79,8 +79,8 @@ def main(frame, bone, aug1, aug2):
     test_lincls(test_loader, trained_backbone, best_lincls, logger, fitlog, DEVICE, criterion_cls, args, plt=args.plt)
 
 if __name__ == '__main__':
-    framework = ['byol'] #['byol', 'simsiam', 'simclr', 'nnclr', 'tstcc']
-    backbone = ['FCN'] #['FCN', 'DCL', 'LSTM', 'AE', 'CNN_AE', 'Transformer']
+    framework = ['byol', 'simsiam', 'simclr', 'nnclr', 'tstcc']
+    backbone = ['FCN', 'DCL', 'LSTM', 'AE', 'CNN_AE', 'Transformer']
     aug1 = ['na', 'noise', 'scale', 'negate', 'perm', 'shuffle', 't_flip', 't_warp', 'resample', 'rotation', 'perm_jit', 'jit_scal', 'hfc', 'lfc', 'p_shift', 'ap_p', 'ap_f']
     aug2 = ['na', 'noise', 'scale', 'negate', 'perm', 'shuffle', 't_flip', 't_warp', 'resample', 'rotation', 'perm_jit', 'jit_scal', 'hfc', 'lfc', 'p_shift', 'ap_p', 'ap_f']
     
