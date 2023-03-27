@@ -13,7 +13,7 @@ def main(frame, bone, aug1, aug2):
     parser.add_argument('--weight_decay', default=1e-4, type=float, metavar='W', help='weight decay (default: 1e-4)', dest='weight_decay')
 
     # dataset
-    parser.add_argument('--dataset', type=str, default='beam', choices=['ucihar', 'shar', 'hhar', 'lab', 'beam'], help='name of dataset')
+    parser.add_argument('--dataset', type=str, default='lab', choices=['ucihar', 'shar', 'hhar', 'lab', 'beam'], help='name of dataset')
     parser.add_argument('--n_feature', type=int, default=77, help='name of feature dimension')
     parser.add_argument('--len_sw', type=int, default=30, help='length of sliding window')
     parser.add_argument('--n_class', type=int, default=18, help='number of class')
