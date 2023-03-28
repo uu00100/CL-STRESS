@@ -215,7 +215,7 @@ def prep_domains_ucihar_subject_large(args, SLIDING_WINDOW_LEN=0, SLIDING_WINDOW
 
 
 def prep_domains_ucihar_random(args, SLIDING_WINDOW_LEN=0, SLIDING_WINDOW_STEP=0):
-    source_domain_list = ['0', '1', '2', '3', '4', '5', '6']
+    source_domain_list = ['0', '1', '2', '3', '4', '5', '6', '7']
 
     x_win_all, y_win_all, d_win_all = np.array([]), np.array([]), np.array([])
     n_train, n_test, split_ratio = [], 0, 0.0
